@@ -15,7 +15,7 @@ function App() {
     <ThemeContext.Provider value={{backgroundColor: theme}}>
  <div>
     <Counter initialCount={0}/>
-    <button onClick={() => setTheme(theme  === 'red' ? 'blue' : 'red')}>Toggle Theme</button>
+    <button onClick={() => setTheme(theme  === 'red' ? 'green' : 'red')}>Toggle Theme</button>
    </div>
     </ThemeContext.Provider>
 
